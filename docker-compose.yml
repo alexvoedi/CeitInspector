@@ -1,0 +1,6 @@
+
+services:
+  ceitinspector:
+    build: .
+    volumes:
+      - .:/usr/src/app
